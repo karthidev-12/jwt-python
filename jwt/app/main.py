@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from api.user.user_routes import user_router
 import logging
 app.include_router(user_router)
-# gghjdjdsf
+
 load_dotenv()
 Base.metadata.create_all(bind=engine)
 logging.basicConfig(filename='log.txt', level=logging.ERROR)
